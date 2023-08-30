@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState} from 'react'
 import cars from './Cars';
 
-function Products() {
+function Products({ handleData }) {
+
+  function renderProducts(){
+    const product = cars.map(car => <li key={car.carname}>{car.carname}</li>)
+
+  }
+
+
   return (
-    <ul>
-     {cars.map(car => <li key={car.carname}>{car.carname}</li>)}
-    </ul>
+    <button onClick={()=>handleData(renderProducts())}>Products</button>
   );
 }
 

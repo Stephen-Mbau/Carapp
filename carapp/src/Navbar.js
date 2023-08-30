@@ -8,7 +8,6 @@ function Navbar() {
     <div style={{background:"brown", color:"#FFF", padding: "20px"}}>
       <Home />
       <About />
-      <Products />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Descritpion from './Description';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundImage:"https://unsplash.com/photos/YApiWyp0lqo"}}>
       <Navbar />
       <Descritpion />
     </div>
