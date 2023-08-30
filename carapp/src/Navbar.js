@@ -5,11 +5,10 @@ import Products from './Products';
 
 function Navbar() {
   return (
-    <div>
-    <Home />
-    <About />
-    <Products />
-    <p>Hello</p>
+    <div style={{background:"brown", color:"#FFF", padding: "20px"}}>
+      <Home />
+      <About />
+      <Products />
     </div>
   );
 }
