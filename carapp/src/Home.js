@@ -14,7 +14,7 @@ function Home() {
         </ul>)
   }
   return (
-    <div>
+    <div id="Home">
         <p>This is the Homepage</p>
         <Products handleData={productsData} />
     </div>
